@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Formulario de contacto</title>
-</head>
-<body>
-  <h1>Formulario de contacto</h1>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" href="assets/css/formulario.css"/>
+    <title>Formulario</title>
+  </head>
+  <body>
+    <form method="post" action="alumno.jsp">
+        <h1> Formulario del Alumno </h1>
+      <label>Nombre:</label>
+      <input type="text"  name="nombre"><br><br>
 
-  <form method="post" action="/send-email">
-    <label for="name">Nombre:</label>
-    <input type="text" id="name" name="name"><br>
+      <label>Carrera:</label>
+      <input type="text"  name="carrera"><br><br>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email"><br>
+      <label>Correo electrónico:</label>
+      <input type="email"  name="correo"><br><br>
+      <input type="submit" value="Enviar"><br><br>
+    </form>
 
-    <label for="description">Descripción:</label>
-    <textarea id="description" name="description"></textarea><br>
-
-    <input type="submit" value="Enviar">
-  </form>
-</body>
+    
+  </body>
 </html>
-

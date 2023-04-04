@@ -1,0 +1,46 @@
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+
+
+
+}
+
+input[type=text], input[type=email] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  
+}
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
